@@ -17,7 +17,11 @@
 
 .header {
   @include fixed;
+  left: 0;
   min-height: 60px;
+  overflow: hidden;
+  right: 0;
+  top: 0;
 }
 
 .main {

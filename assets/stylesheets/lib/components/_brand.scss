@@ -17,8 +17,6 @@ $class: "brand";
       width: 120px;
       a {
         img {
-          -webkit-perspective: 1000;
-          -webkit-backface-visibility: hidden;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
         }
