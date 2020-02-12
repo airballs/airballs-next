@@ -1,6 +1,6 @@
 {
-  "name": "tadao-next",
-  "version": "0.0.5",
+  "name": "airballs-next",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
