@@ -16,6 +16,7 @@ html {
   background-color: $base-blue;
   color: $white;
   height: auto;
+  overflow-x: hidden;
 }
 
 html,
@@ -42,21 +43,24 @@ body {
   -webkit-overflow-scrolling: touch
 }
 
-::-webkit-scrollbar,
-body::-webkit-scrollbar {
-  appearance: none;
-  display: none;
-  scrollbar-width: none;
-  visibility: hidden;
-}
-
 .body-root,
 .root {
   display: block;
   float: left;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   width: 100%;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+.body-root::-webkit-scrollbar,
+.root::-webkit-scrollbar {
+  appearance: none;
+  display: none;
+  scrollbar-width: none;
+  visibility: hidden;
 }
 
 .body-root {
