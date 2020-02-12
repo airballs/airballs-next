@@ -1,0 +1,6 @@
+# Config Data
+
+config:
+  lang: "en-GB"
+  base_url: "https://airballs-next.now.sh/"
+  legal_url: "https://airballs-next.now.sh/legal"

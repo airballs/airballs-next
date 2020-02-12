@@ -1,0 +1,149 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Roles
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+.notifications,
+.header,
+.main,
+.footer,
+.advisory {
+  float: left;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  @include fixed;
+  min-height: 60px;
+}
+
+.main {
+  padding: 0;
+}
+
+.footer {
+  min-height: 56px;
+  padding: 32px 0;
+}
+
+.advisory {
+  @include fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.fixed-header {
+  @include fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+// Note: when using sticky footer it's important
+// header & footer have fixed heights.
+.sticky-footer {
+  @include sticky;
+  float: left;
+  margin: 0;
+  max-width: 100%;
+  min-height: calc(100vh - 120px); // Minus the height of the header
+  padding: 0;
+  width: 100%;
+}
+
+.container,
+.container-top,
+.container-left,
+.container-center,
+.container-middle,
+.container-right,
+.container-bottom {
+  float: left;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+  .container-box,
+  .container-top-box,
+  .container-left-box,
+  .container-center-box,
+  .container-middle-box,
+  .container-right-box,
+  .container-bottom-box {
+    float: left;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+    .container-row,
+    .container-top-row,
+    .container-left-row,
+    .container-center-row,
+    .container-middle-row,
+    .container-right-row,
+    .container-bottom-row {
+      float: left;
+      margin: 0;
+      max-width: 100%;
+      padding: 0;
+      width: 100%;
+    }
+  }
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+  .header {
+    min-height: 40px;
+  }
+  .sticky-footer {
+    min-height: calc(100vh - (40px + 80px)); // Minus the height of the header and footer.
+  }
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+  .header {
+    min-height: 40px;
+  }
+  .sticky-footer {
+    min-height: calc(100vh - (40px + 80px)); // Minus the height of the header and footer.
+  }
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+  .header {
+    min-height: 40px;
+  }
+  .sticky-footer {
+    min-height: calc(100vh - (40px + 80px)); // Minus the height of the header and footer.
+  }
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+}
