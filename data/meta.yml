@@ -5,6 +5,6 @@ meta:
   description: "A light, delicate, and delicious Portuguese pastries, reimagined by ourselves for today’s discerning snack lovers."
   type: "website"
   url: "https://airballs-next.now.sh/"
-  image: "https://og-image.now.sh/Tadao%20%2B%20Next.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fzeit-white-triangle.svg"
+  image: "https://airballs-next.now.sh/og.png"
   card: "summary_large_image"
   handle: "@yummyairballs"
