@@ -11,10 +11,12 @@ import Milk from "../lib/components/panels/milk"
 import Contact from "../lib/components/panels/contact"
 import Base from "../lib/components/panels/base"
 // Modules
+import SmoothScroll from "smoothscroll-polyfill"
 import ZahaAlignments from "@iigethr/zaha_alignments"
 
 class Index extends React.Component {
   componentDidMount() {
+    SmoothScroll.polyfill()
     ZahaAlignments.centerH()
     console.log("Registered a Page - Index")
   }
