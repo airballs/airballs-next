@@ -8,6 +8,7 @@ import Notifications from "../lib/globals/notifications"
 import Header from "../lib/globals/header"
 import Footer from "../lib/globals/footer"
 import Advisory from "../lib/globals/advisory"
+// import Burger from "../lib/components/burger"
 // Modules
 import ZahaAlignments from "@iigethr/zaha_alignments"
 
@@ -29,6 +30,7 @@ class Design extends React.Component {
           <meta name="description" content={meta.description} />
         </Head>
         <Notifications />
+        {/* <Burger /> */}
         <Header />
         {/* Sticky */}
         <div className="sticky-footer">

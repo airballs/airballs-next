@@ -6,14 +6,17 @@
 $class: "burger";
 
 .#{$class} {
-  float: left;
+  position: fixed;
+  top: 0;
+  right: 0;
+  float: right;
+  height: 40px;
   width: 80px;
   .#{$class}-box {
     float: left;
     .#{$class}-item {
       float: left;
-      height: 120px;
-      padding: 40px 0;
+      height: 40px;
       width: 80px;
     }
   }
