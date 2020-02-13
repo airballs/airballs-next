@@ -19,10 +19,14 @@
   left: 0;
   min-height: 60px;
   position: fixed;
-  overflow-x: hidden;
+  overflow: hidden;
   right: 0;
   top: 0;
-  z-index: 9999;
+  z-index: 1;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .main {

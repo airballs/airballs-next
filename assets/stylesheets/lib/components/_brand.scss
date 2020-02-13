@@ -8,6 +8,10 @@ $class: "brand";
 .#{$class} {
   float: left;
   width: 120px;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   .#{$class}-box {
     float: left;
     .#{$class}-item {
@@ -15,8 +19,14 @@ $class: "brand";
       padding: 16px;
       height: 120px;
       width: 120px;
+      -webkit-perspective: 1000;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
       a {
         img {
+          -webkit-perspective: 1000;
+          -webkit-backface-visibility: hidden;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
         }
