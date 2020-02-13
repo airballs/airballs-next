@@ -7,13 +7,13 @@ $class: "brand";
 
 .#{$class} {
   float: left;
-  width: 200px;
+  width: 120px;
   .#{$class}-box {
     float: left;
     .#{$class}-item {
       float: left;
+      padding: 16px;
       height: 120px;
-      padding: 8px;
       width: 120px;
       a {
         img {
@@ -29,10 +29,8 @@ $class: "brand";
 // -------------------------------------------------------------
 @media #{$xxs} {
   .#{$class} {
-    width: 60px;
     .#{$class}-box {
       .#{$class}-item {
-        width: 60px;
       }
     }
   }
