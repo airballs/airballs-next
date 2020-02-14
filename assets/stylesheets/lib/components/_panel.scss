@@ -24,34 +24,40 @@ $class: "panel";
     padding: 60px 0 0 !important;
   }
   &.intro {
-    background-image: url('../images/ball_plus_header.png');
+    background-image: url('../images/intro.png');
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: 1920px 1080px;
   }
   &.flavours {
-    background-image: url('../images/airballs.png');
+    background-image: url('../images/flavours.png');
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: 360px 564px;
   }
   &.milk {
-    background-image: url('../images/airballs.png');
+    background-image: url('../images/milk.png');
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: 1920px 1080px;
   }
   &.honey {
-    background-image: url('../images/airballs.png');
+    background-image: url('../images/honey.png');
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: 1920px 1080px;
   }
   &.white {
-    background-image: url('../images/airballs.png');
+    background-image: url('../images/white.png');
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: 1920px 1080px;
   }
   &.yoda {
     background-image: url('../images/yoda.png');
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: 360px 360px;
   }
 }
 
